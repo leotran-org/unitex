@@ -9,56 +9,56 @@
 @layer base {
   :root {
     /* Core Brand Colors - Blue to Purple Spectrum */
-    --primary: 240 100% 65%;        /* Vibrant Blue */
-    --primary-dark: 250 85% 55%;    /* Deep Blue-Purple */
-    --primary-light: 230 100% 75%;  /* Light Blue */
+    --primary: 240 100% 60%;        /* Vibrant Blue */
+    --primary-dark: 250 90% 50%;    /* Deep Blue-Purple */
+    --primary-light: 230 100% 70%;  /* Light Blue */
     
-    --secondary: 280 85% 65%;       /* Purple */
-    --secondary-dark: 290 80% 55%;  /* Deep Purple */
-    --secondary-light: 270 90% 75%; /* Light Purple */
+    --secondary: 280 80% 60%;       /* Purple */
+    --secondary-dark: 290 85% 50%;  /* Deep Purple */
+    --secondary-light: 270 85% 70%; /* Light Purple */
     
-    --accent: 200 100% 70%;         /* Cyan Accent */
-    --accent-dark: 210 90% 60%;     /* Deep Cyan */
+    --accent: 200 100% 55%;         /* Cyan Accent */
+    --accent-dark: 210 90% 45%;     /* Deep Cyan */
     
-    /* Background System */
-    --background: 245 15% 8%;       /* Dark Navy Background */
-    --background-secondary: 245 20% 12%; /* Slightly lighter */
-    --background-card: 245 25% 16%; /* Card background */
+    /* Light Background System */
+    --background: 0 0% 100%;        /* Pure White */
+    --background-secondary: 240 20% 98%; /* Very Light Blue-tinted */
+    --background-card: 240 30% 96%; /* Light Card Background */
     
-    --foreground: 230 15% 95%;      /* Light text */
-    --foreground-secondary: 230 10% 75%; /* Secondary text */
-    --foreground-muted: 230 8% 55%; /* Muted text */
+    --foreground: 240 20% 15%;      /* Dark text */
+    --foreground-secondary: 240 15% 35%; /* Secondary text */
+    --foreground-muted: 240 10% 55%; /* Muted text */
     
     /* Interactive States */
-    --border: 240 20% 25%;
-    --input: 240 25% 20%;
-    --ring: 240 100% 65%;
+    --border: 240 20% 88%;
+    --input: 240 25% 92%;
+    --ring: 240 100% 60%;
     
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(240 100% 65%) 0%, hsl(280 85% 65%) 100%);
-    --gradient-secondary: linear-gradient(135deg, hsl(280 85% 65%) 0%, hsl(320 80% 60%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(200 100% 70%) 0%, hsl(240 100% 65%) 100%);
-    --gradient-hero: linear-gradient(135deg, hsl(240 100% 65%) 0%, hsl(280 85% 65%) 50%, hsl(320 80% 60%) 100%);
+    /* Gradients - Adjusted for light theme */
+    --gradient-primary: linear-gradient(135deg, hsl(240 100% 60%) 0%, hsl(280 80% 60%) 100%);
+    --gradient-secondary: linear-gradient(135deg, hsl(280 80% 60%) 0%, hsl(320 75% 55%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(200 100% 55%) 0%, hsl(240 100% 60%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(240 100% 60%) 0%, hsl(280 80% 60%) 50%, hsl(320 75% 55%) 100%);
     
-    /* Shadows & Effects */
-    --shadow-glow: 0 0 40px hsl(240 100% 65% / 0.3);
-    --shadow-glow-purple: 0 0 40px hsl(280 85% 65% / 0.3);
-    --shadow-card: 0 10px 30px hsl(245 20% 5% / 0.4);
+    /* Shadows & Effects - Softer for light theme */
+    --shadow-glow: 0 0 30px hsl(240 100% 60% / 0.15);
+    --shadow-glow-purple: 0 0 30px hsl(280 80% 60% / 0.15);
+    --shadow-card: 0 4px 20px hsl(240 20% 15% / 0.08);
     
     /* Animation Timing */
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
-    --card: 245 25% 16%;
-    --card-foreground: 230 15% 95%;
-    --popover: 245 25% 16%;
-    --popover-foreground: 230 15% 95%;
-    --primary-foreground: 245 15% 8%;
-    --muted: 240 20% 25%;
-    --muted-foreground: 230 8% 55%;
-    --accent-foreground: 245 15% 8%;
+    --card: 240 30% 96%;
+    --card-foreground: 240 20% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 20% 15%;
+    --primary-foreground: 0 0% 100%;
+    --muted: 240 20% 88%;
+    --muted-foreground: 240 10% 55%;
+    --accent-foreground: 0 0% 100%;
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
     --radius: 0.5rem;
 
@@ -79,43 +79,6 @@
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
-  .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
-  }
 }
 
 @layer base {
@@ -166,11 +129,12 @@
     box-shadow: var(--shadow-glow-purple);
   }
   
-  /* Glass Effect */
+  /* Glass Effect - Adjusted for light theme */
   .glass-effect {
-    background: hsl(var(--background-card) / 0.8);
+    background: hsl(var(--background-card) / 0.7);
     backdrop-filter: blur(20px);
-    border: 1px solid hsl(var(--border) / 0.3);
+    border: 1px solid hsl(var(--border) / 0.5);
+    box-shadow: var(--shadow-card);
   }
 }
 
