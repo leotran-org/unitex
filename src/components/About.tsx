@@ -34,7 +34,9 @@ const About = () => {
             <span className="gradient-text">Về Unitex</span>
           </h2>
           <p className="text-xl text-foreground-secondary max-w-3xl mx-auto leading-relaxed">
-            Unitex được thành lập với sứ mệnh trở thành nền tảng số 1 về kết nối sinh viên - doanh nghiệp tại Việt Nam, 
+            Unitex được thành lập với sứ mệnh 
+            <span><strong> kết nối tri thức học thuật và thực tiễn doanh nghiệp </strong></span>
+            tại Việt Nam, 
             tạo ra môi trường học tập và phát triển thực tế cho thế hệ trẻ.
           </p>
         </div>

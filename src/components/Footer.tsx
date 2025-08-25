@@ -30,11 +30,11 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-sm text-foreground-secondary">
                 <Mail className="w-4 h-4 text-primary" />
-                <span>contact@unitex.vn</span>
+                <span>hellounitex@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3 text-sm text-foreground-secondary">
                 <Phone className="w-4 h-4 text-primary" />
-                <span>+84 123 456 789</span>
+                <span>+84 908 310 791</span>
               </div>
               <div className="flex items-center space-x-3 text-sm text-foreground-secondary">
                 <MapPin className="w-4 h-4 text-primary" />

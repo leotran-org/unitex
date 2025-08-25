@@ -41,7 +41,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-xl md:text-2xl text-foreground-secondary mb-8 max-w-2xl leading-relaxed">
-            Tạo môi trường cọ xát thực tế cho sinh viên đại học, cao đẳng với doanh nghiệp, 
+            Tạo điều kiện kết nối trực tiếp cho sinh viên đại học, cao đẳng với doanh nghiệp, 
             startup và tổ chức công nghệ hàng đầu Việt Nam.
           </p>
 
@@ -63,15 +63,15 @@ const Hero = () => {
               <div className="text-foreground-muted text-sm">Sinh viên tham gia</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold gradient-text mb-2">500+</div>
+              <div className="text-3xl md:text-4xl font-bold gradient-text mb-2">50+</div>
               <div className="text-foreground-muted text-sm">Doanh nghiệp đối tác</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold gradient-text mb-2">50+</div>
+              <div className="text-3xl md:text-4xl font-bold gradient-text mb-2">30+</div>
               <div className="text-foreground-muted text-sm">Trường đại học</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold gradient-text mb-2">100+</div>
+              <div className="text-3xl md:text-4xl font-bold gradient-text mb-2">30+</div>
               <div className="text-foreground-muted text-sm">Sự kiện/năm</div>
             </div>
           </div>

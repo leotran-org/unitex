@@ -85,8 +85,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Email</h4>
-                    <p className="text-foreground-secondary">contact@unitex.vn</p>
-                    <p className="text-foreground-secondary">partnership@unitex.vn</p>
+                    <p className="text-foreground-secondary">hellounitex@gmail.com</p>
                   </div>
                 </div>
                 
@@ -96,8 +95,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Điện thoại</h4>
-                    <p className="text-foreground-secondary">+84 123 456 789</p>
-                    <p className="text-foreground-secondary">+84 987 654 321</p>
+                    <p className="text-foreground-secondary">+84 989 200 123</p>
+                    <p className="text-foreground-secondary">+84 908 310 791</p>
                   </div>
                 </div>
                 
@@ -155,6 +154,9 @@ const Contact = () => {
                 </Button>
                 <Button variant="ghost" className="justify-start">
                   TikTok
+                </Button>
+                <Button variant="ghost" className="justify-start">
+                    www.unitex.ventures
                 </Button>
               </div>
             </div>
