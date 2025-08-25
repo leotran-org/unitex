@@ -1,40 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Unitex Design System - Dynamic Blue-Purple Theme for Gen Z */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Core Brand Colors - Blue to Purple Spectrum */
+    --primary: 240 100% 65%;        /* Vibrant Blue */
+    --primary-dark: 250 85% 55%;    /* Deep Blue-Purple */
+    --primary-light: 230 100% 75%;  /* Light Blue */
+    
+    --secondary: 280 85% 65%;       /* Purple */
+    --secondary-dark: 290 80% 55%;  /* Deep Purple */
+    --secondary-light: 270 90% 75%; /* Light Purple */
+    
+    --accent: 200 100% 70%;         /* Cyan Accent */
+    --accent-dark: 210 90% 60%;     /* Deep Cyan */
+    
+    /* Background System */
+    --background: 245 15% 8%;       /* Dark Navy Background */
+    --background-secondary: 245 20% 12%; /* Slightly lighter */
+    --background-card: 245 25% 16%; /* Card background */
+    
+    --foreground: 230 15% 95%;      /* Light text */
+    --foreground-secondary: 230 10% 75%; /* Secondary text */
+    --foreground-muted: 230 8% 55%; /* Muted text */
+    
+    /* Interactive States */
+    --border: 240 20% 25%;
+    --input: 240 25% 20%;
+    --ring: 240 100% 65%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(240 100% 65%) 0%, hsl(280 85% 65%) 100%);
+    --gradient-secondary: linear-gradient(135deg, hsl(280 85% 65%) 0%, hsl(320 80% 60%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(200 100% 70%) 0%, hsl(240 100% 65%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(240 100% 65%) 0%, hsl(280 85% 65%) 50%, hsl(320 80% 60%) 100%);
+    
+    /* Shadows & Effects */
+    --shadow-glow: 0 0 40px hsl(240 100% 65% / 0.3);
+    --shadow-glow-purple: 0 0 40px hsl(280 85% 65% / 0.3);
+    --shadow-card: 0 10px 30px hsl(245 20% 5% / 0.4);
+    
+    /* Animation Timing */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
+    --card: 245 25% 16%;
+    --card-foreground: 230 15% 95%;
+    --popover: 245 25% 16%;
+    --popover-foreground: 230 15% 95%;
+    --primary-foreground: 245 15% 8%;
+    --muted: 240 20% 25%;
+    --muted-foreground: 230 8% 55%;
+    --accent-foreground: 245 15% 8%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
 
     --radius: 0.5rem;
 
@@ -101,5 +125,88 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow-x: hidden;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Gradient Text Effects */
+  .gradient-text {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .gradient-text-secondary {
+    background: var(--gradient-secondary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  /* Animated Backgrounds */
+  .animated-gradient {
+    background: var(--gradient-hero);
+    background-size: 200% 200%;
+    animation: gradientShift 6s ease infinite;
+  }
+  
+  /* Glow Effects */
+  .glow-primary {
+    box-shadow: var(--shadow-glow);
+  }
+  
+  .glow-purple {
+    box-shadow: var(--shadow-glow-purple);
+  }
+  
+  /* Glass Effect */
+  .glass-effect {
+    background: hsl(var(--background-card) / 0.8);
+    backdrop-filter: blur(20px);
+    border: 1px solid hsl(var(--border) / 0.3);
+  }
+}
+
+@layer utilities {
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+  
+  .transition-bounce {
+    transition: var(--transition-bounce);
+  }
+}
+
+@keyframes gradientShift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px hsl(var(--primary) / 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px hsl(var(--primary) / 0.6);
   }
 }
