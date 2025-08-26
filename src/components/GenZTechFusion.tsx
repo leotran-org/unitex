@@ -43,11 +43,7 @@ const GenZTechFusion = () => {
             </div>
 
             <h2 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              <span className="gradient-text-secondary">GENZ</span>
-              <br />
-              <span className="text-foreground">TECH</span>
-              <br />
-              <span className="gradient-text">FUSION</span>
+              <span className="gradient-text">TALENTXpo</span>
             </h2>
 
             <p className="text-xl text-foreground-secondary mb-8 leading-relaxed">
@@ -71,7 +67,7 @@ const GenZTechFusion = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button variant="secondary" size="lg" className="group">
-                Tham gia GenZ Tech Fusion
+                Tham gia TalentXpo
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button variant="outline" size="lg">
@@ -118,7 +114,7 @@ const GenZTechFusion = () => {
         {/* Special Features */}
         <div className="mt-20 glass-effect p-8 rounded-3xl">
           <h3 className="text-3xl font-bold text-center mb-12 gradient-text-secondary">
-            Điểm đặc biệt của GenZ Tech Fusion
+            Điểm đặc biệt của TalentXpo
           </h3>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

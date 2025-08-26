@@ -15,7 +15,7 @@ const Index = () => {
         <About />
         <Services />
         <GenZTechFusion />
-        <Contact />
+        {/**<Contact />**/}
       </main>
       <Footer />
     </div>
