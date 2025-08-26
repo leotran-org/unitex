@@ -43,7 +43,8 @@ const GenZTechFusion = () => {
             </div>
 
             <h2 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              <span className="gradient-text">TALENTXpo</span>
+              <span className="text-slate-700">Talent</span>
+              <span className="text-sky-600">Xpo</span>
             </h2>
 
             <p className="text-xl text-foreground-secondary mb-8 leading-relaxed">
@@ -66,7 +67,7 @@ const GenZTechFusion = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="secondary" size="lg" className="group">
+              <Button variant="secondary" size="lg" className="group bg-gradient-to-r from-blue-600 to-sky-400">
                 Tham gia TalentXpo
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
