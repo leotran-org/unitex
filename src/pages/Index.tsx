@@ -5,7 +5,7 @@ import Services from "@/components/Services";
 import TalentXpo from "@/components/TalentXpo";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import UniXpo from "@/components/UniXpo";
+import UniXpo from "@/components/Unixpo";
 
 const Index = () => {
   return (
