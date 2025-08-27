@@ -2,9 +2,10 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Services from "@/components/Services";
-import GenZTechFusion from "@/components/GenZTechFusion";
+import TalentXpo from "@/components/TalentXpo";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import UniXpo from "@/components/UniXpo";
 
 const Index = () => {
   return (
@@ -14,8 +15,9 @@ const Index = () => {
         <Hero />
         <About />
         <Services />
-        <GenZTechFusion />
-        {/**<Contact />**/}
+         <UniXpo />
+        <TalentXpo />
+        <Contact />
       </main>
       <Footer />
     </div>

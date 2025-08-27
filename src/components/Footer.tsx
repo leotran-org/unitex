@@ -33,10 +33,6 @@ const Footer = () => {
                 <span>hellounitex@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3 text-sm text-foreground-secondary">
-                <Phone className="w-4 h-4 text-primary" />
-                <span>+84 908 310 791</span>
-              </div>
-              <div className="flex items-center space-x-3 text-sm text-foreground-secondary">
                 <MapPin className="w-4 h-4 text-primary" />
                 <span>TP. Hồ Chí Minh, Việt Nam</span>
               </div>
@@ -96,7 +92,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="flex flex-col md:flex-row justify-between items-center py-8 border-t border-border/20">
           <div className="text-foreground-muted text-sm mb-4 md:mb-0">
-            © 2024 Unitex. All rights reserved. Made with ❤️ for Gen Z
+            © 2025 Unitex. All rights reserved. Made with ❤️ for Gen Z
           </div>
           
           <div className="flex items-center space-x-6">

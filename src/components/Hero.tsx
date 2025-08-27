@@ -4,7 +4,7 @@ import heroImage from "@/assets/unitex-hero.jpg";
 
 const Hero = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center overflow-hidden pt-24">
       {/* Animated Background */}
       <div className="absolute inset-0 animated-gradient opacity-10"></div>
       
@@ -45,21 +45,13 @@ const Hero = () => {
             startup và tổ chức công nghệ hàng đầu Việt Nam.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 mb-12">
-            <Button variant="hero" size="lg" className="group">
-              Khám phá Unitour
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button variant="outline" size="lg" className="group">
-              <Play className="w-5 h-5 mr-2" />
-              Xem giới thiệu
-            </Button>
+          <div className="flex flex-col sm:flex-row gap-4 mb-32">
           </div>
 
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold gradient-text mb-2">1K+</div>
+              <div className="text-3xl md:text-4xl font-bold gradient-text mb-2">10K+</div>
               <div className="text-foreground-muted text-sm">Sinh viên tham gia</div>
             </div>
             <div className="text-center">

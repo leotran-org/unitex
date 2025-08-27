@@ -78,28 +78,6 @@ const Services = () => {
           ))}
         </div>
 
-        <div className="mt-16 text-center">
-          <div className="glass-effect p-12 rounded-3xl shadow-lg transform hover:scale-105 transition-transform duration-300 relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-r from-primary to-secondary opacity-10 pointer-events-none"></div>
-            <h3 className="text-4xl font-extrabold mb-6 gradient-text-secondary">
-              Tại sao chọn Unitex?
-            </h3>
-            <div className="flex flex-wrap justify-center gap-10 lg:gap-40 mt-10">
-              <div className="flex flex-col items-center space-y-2">
-                <Users2 className="w-12 h-12 text-primary" />
-                <span className="text-xl md:text-2xl lg:text-3xl text-foreground-secondary font-medium leading-relaxed italic">Chuyên nghiệp</span>
-              </div>
-              <div className="flex flex-col items-center space-y-2">
-                <Network className="w-12 h-12 text-primary" />
-                <span className="text-xl md:text-2xl lg:text-3xl text-foreground-secondary font-medium leading-relaxed italic">Chất lượng</span>
-              </div>
-              <div className="flex flex-col items-center space-y-2">
-                <Trophy className="w-12 h-12 text-primary" />
-                <span className="text-xl md:text-2xl lg:text-3xl text-foreground-secondary font-medium leading-relaxed italic">Tận tâm</span>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

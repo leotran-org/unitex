@@ -9,8 +9,8 @@ const Header = () => {
     { name: "Trang chủ", href: "#home" },
     { name: "Giới thiệu", href: "#about" },
     { name: "Dịch vụ", href: "#services" },
-    { name: "Sự kiện", href: "#events" },
-    { name: "GenZ Tech Fusion", href: "#genz" },
+    { name: "UniXpo", href: "#uniXpo" },
+    { name: "TalentXpo", href: "#talentxpo" },
     { name: "Liên hệ", href: "#contact" }
   ];
 
