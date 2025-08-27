@@ -51,7 +51,7 @@ const UniXpo = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            <span className="gradient-text">UnitXpo</span>
+            <span className="gradient-text">UniXpo Connect</span>
             <span className="text-foreground"> - Hành trình khám phá</span>
           </h2>
           <p className="text-xl text-foreground-secondary max-w-3xl mx-auto leading-relaxed">
@@ -80,7 +80,7 @@ const UniXpo = () => {
           {/* Benefits */}
           <div>
             <h3 className="text-3xl font-bold mb-8 gradient-text-secondary">
-              Lợi ích khi tham gia UnitXpo
+              Lợi ích khi tham gia UniXpo Connect
             </h3>
             <div className="space-y-4">
               {benefits.map((benefit, index) => (
@@ -95,7 +95,7 @@ const UniXpo = () => {
             
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <Button variant="hero" size="lg" className="group">
-                Đăng ký tham gia UnitXpo
+                Đăng ký tham gia UniXpo Connect
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button variant="outline" size="lg">
@@ -107,7 +107,7 @@ const UniXpo = () => {
           {/* Process Steps */}
           <div className="glass-effect p-8 rounded-3xl">
             <h3 className="text-2xl font-bold mb-8 text-center gradient-text">
-              Quy trình UnitXpo
+              Quy trình UniXpo Connect
             </h3>
             
             <div className="space-y-6">
