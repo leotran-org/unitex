@@ -90,25 +90,13 @@ const Contact = () => {
                 </div>
                 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 rounded-lg bg-gradient-secondary flex items-center justify-center flex-shrink-0">
-                    <Phone className="w-6 h-6 text-primary-foreground" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-foreground mb-1">Điện thoại</h4>
-                    <p className="text-foreground-secondary">+84 989 200 123</p>
-                    <p className="text-foreground-secondary">+84 908 310 791</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 rounded-lg bg-gradient-accent flex items-center justify-center flex-shrink-0">
                     <MapPin className="w-6 h-6 text-primary-foreground" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Địa chỉ</h4>
                     <p className="text-foreground-secondary">
-                      Tầng 10, Tòa nhà ABC<br />
-                      123 Đường Tech Hub, Quận 1<br />
+                      Đường Yên Thế, Phường 2, Tân Bình<br />
                       TP. Hồ Chí Minh, Việt Nam
                     </p>
                   </div>
