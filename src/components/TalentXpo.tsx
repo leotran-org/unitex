@@ -44,10 +44,14 @@ const TalentXpo = () => {
 
             <div className="mb-8">
               <div className="mb-4">
-                <span className="text-4xl md:text-6xl font-bold gradient-text">TalentXpo</span>
+                <div className="text-4xl md:text-6xl font-bold">
+                <span className="text-blue-900/90">Talent</span>
+                <span className="gradient-text">Xpo</span>
+                </div>
               </div>
-              <p className="text-2xl md:text-3xl font-bold gradient-text-secondary">
-                NextGen Meets Opportunity
+              <p className="text-2xl md:text-3xl font-bold">
+                <span className="text-blue-900/90">NextGen Meets </span> 
+                <span className="gradient-text">Opportunity</span>
               </p>
             </div>
 
@@ -109,8 +113,11 @@ const TalentXpo = () => {
 
         {/* Special Features */}
         <div className="mt-20 glass-effect p-8 rounded-3xl">
-          <h3 className="text-3xl font-bold text-center mb-12 gradient-text-secondary">
-            Điểm đặc biệt của TalentXpo
+          <h3 className="text-3xl font-bold text-center mb-12">
+            <span className = "gradient-text-secondary"> Điểm đặc biệt của </span> 
+            <span className="text-blue-900/90">Talent</span>
+            <span className="gradient-text">Xpo</span>
+
           </h3>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

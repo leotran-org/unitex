@@ -8,9 +8,10 @@ const Header = () => {
   const navItems = [
     { name: "Trang chủ", href: "#home" },
     { name: "Giới thiệu", href: "#about" },
-    { name: "Dịch vụ", href: "#services" },
-    { name: "UniXpo", href: "#uniXpo" },
+    { name: "Unitour", href: "#unitour" },
+    { name: "UniXpo", href: "#unixpo" },
     { name: "TalentXpo", href: "#talentxpo" },
+    { name: "Competition", href: "#competition" },
     { name: "Liên hệ", href: "#contact" }
   ];
 
@@ -23,8 +24,11 @@ const Header = () => {
             <div className="w-10 h-10 rounded-lg bg-gradient-primary flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-xl">U</span>
             </div>
-            <span className="text-xl font-bold gradient-text">Unitex</span>
-          </div>
+            <div>
+                <span className="text-xl font-bold text-blue-900">Uni</span>
+                <span className="text-xl font-bold gradient-text">tex</span>
+            </div>    
+        </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
