@@ -51,7 +51,7 @@ const UniXpo = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            <span className="gradient-text">UniXpo Connect</span>
+            <span className="gradient-text">UniXpo</span>
             <span className="text-foreground"> - Hành trình khám phá</span>
           </h2>
           <p className="text-xl text-foreground-secondary max-w-3xl mx-auto leading-relaxed">
@@ -79,8 +79,9 @@ const UniXpo = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           {/* Benefits */}
           <div>
-            <h3 className="text-3xl font-bold mb-8 gradient-text-secondary">
-              Lợi ích khi tham gia UniXpo Connect
+            <h3 className="text-3xl font-bold mb-8">
+              Lợi ích khi tham gia 
+              <span className="gradient-text"> UniXpo </span>
             </h3>
             <div className="space-y-4">
               {benefits.map((benefit, index) => (
@@ -95,7 +96,7 @@ const UniXpo = () => {
             
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <Button variant="hero" size="lg" className="group">
-                Đăng ký tham gia UniXpo Connect
+                Đăng ký tham gia UniXpo
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button variant="outline" size="lg">
@@ -106,8 +107,9 @@ const UniXpo = () => {
 
           {/* Process Steps */}
           <div className="glass-effect p-8 rounded-3xl">
-            <h3 className="text-2xl font-bold mb-8 text-center gradient-text">
-              Quy trình UniXpo Connect
+            <h3 className="text-2xl font-bold mb-8 text-center">
+              Quy trình 
+              <span className="gradient-text"> UniXpo </span>
             </h3>
             
             <div className="space-y-6">
@@ -122,7 +124,7 @@ const UniXpo = () => {
               </div>
 
               <div className="flex items-start space-x-4">
-                <div className="w-8 h-8 rounded-full bg-gradient-secondary flex items-center justify-center text-primary-foreground font-bold text-sm">
+                <div className="w-8 h-8 rounded-full bg-gradient-primary flex items-center justify-center text-primary-foreground font-bold text-sm">
                   2
                 </div>
                 <div>
@@ -132,7 +134,7 @@ const UniXpo = () => {
               </div>
 
               <div className="flex items-start space-x-4">
-                <div className="w-8 h-8 rounded-full bg-gradient-accent flex items-center justify-center text-primary-foreground font-bold text-sm">
+                <div className="w-8 h-8 rounded-full bg-gradient-primary flex items-center justify-center text-primary-foreground font-bold text-sm">
                   3
                 </div>
                 <div>

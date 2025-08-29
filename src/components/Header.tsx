@@ -8,7 +8,6 @@ const Header = () => {
   const navItems = [
     { name: "Trang chủ", href: "#home" },
     { name: "Giới thiệu", href: "#about" },
-    { name: "Unitour", href: "#unitour" },
     { name: "UniXpo", href: "#unixpo" },
     { name: "TalentXpo", href: "#talentxpo" },
     { name: "Competition", href: "#competition" },

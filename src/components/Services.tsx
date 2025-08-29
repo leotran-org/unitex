@@ -7,7 +7,7 @@ const Services = () => {
       icon: <Calendar className="w-10 h-10" />,
       prefix: "Uni",
       name: "Tour",
-      brief: "Hành Trình Đại Học",
+      brief: "Hành Trình Tới Các Cơ Sở Giáo Dục",
       description: "Tổ chức seminar, workshop, hackathon tại các trường đại học, cao đẳng khắp Việt Nam",
       features: ["Seminar chuyên đề", "Workshop thực hành", "Hackathon công nghệ", "Networking events"],
       href: "#unitour"
@@ -18,7 +18,7 @@ const Services = () => {
       prefix: "Uni",
       brief: "Kết nối Tuyển dụng",
       description: "Khu vực tuyển dụng và kết nối trực tiếp giữa doanh nghiệp với sinh viên tài năng",
-      features: ["Job matching", "Career counseling", "Company visits", "Internship programs"],
+      features: ["Kết nối việc làm", "Tư vấn nghề nghiệp", "Tham quan doanh nghiệp", "Chương trình thực tập"],
       href: "#unixpo"
     },
     {
@@ -27,7 +27,7 @@ const Services = () => {
       name: "Xpo",
       brief: "Hội thảo chuyên đề",
       description: "Nội dung chất lượng về khởi nghiệp, công nghệ, kỹ năng mềm dành cho thế hệ trẻ",
-      features: ["Startup insights", "Tech trends", "Skill development", "Industry analysis"],
+      features: ["Thông tin khởi nghiệp", "Xu hướng công nghệ", "Phát triển kỹ năng", "Phân tích ngành"],
       href: "#talentxpo"
     },
     {
@@ -36,7 +36,7 @@ const Services = () => {
       name: "Com",
       brief: "Cuộc thi & Hackathon",
       description: "Tổ chức các cuộc thi, hackathon với giải thưởng hấp dẫn và cơ hội nghề nghiệp",
-      features: ["Coding competitions", "Business plan contests", "Innovation challenges", "Mentorship programs"],
+      features: ["Cuộc thi lập trình", "Cuộc thi kế hoạch kinh doanh", "Thử thách sáng tạo", "Chương trình cố vấn"],
       href: "#unicomp"
     },
   ];
@@ -66,9 +66,7 @@ const Services = () => {
                 </div>
                 
                 <h3 className="text-2xl font-semibold mb-4">
-                  <span className="text-blue-900/90">{service.prefix}</span>
-                  <span className="gradient-text">{service.name}</span>
-                  <span className="text-lg text-foreground-secondary font-normal"> - {service.brief}</span>
+                  <span className="text-lg text-foreground-secondary font-normal">{service.brief}</span>
                 </h3>
                 
                 <p className="text-foreground-secondary mb-6 leading-relaxed">
