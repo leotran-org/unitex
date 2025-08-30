@@ -36,7 +36,7 @@ jobs:
           # SPA fallback so client-side routes work on reload:
           cp dist/index.html dist/404.html
           # Add CNAME for your custom domain (edit this line):
-          echo "unitex.ventures " > dist/CNAME
+          echo "unitex.ventures" > dist/CNAME
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
