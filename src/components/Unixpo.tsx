@@ -51,7 +51,8 @@ const UniXpo = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            <span className="gradient-text">UniXpo</span>
+            <span className="text-blue-900/90">Uni</span>
+            <span className="gradient-text">Xpo</span>
             <span className="text-foreground"> - Hành trình khám phá</span>
           </h2>
           <p className="text-xl text-foreground-secondary max-w-3xl mx-auto leading-relaxed">
@@ -81,7 +82,8 @@ const UniXpo = () => {
           <div>
             <h3 className="text-3xl font-bold mb-8">
               Lợi ích khi tham gia 
-              <span className="gradient-text"> UniXpo </span>
+              <span className="text-blue-900/90"> Uni</span>
+              <span className="gradient-text">Xpo </span>
             </h3>
             <div className="space-y-4">
               {benefits.map((benefit, index) => (
@@ -109,7 +111,8 @@ const UniXpo = () => {
           <div className="glass-effect p-8 rounded-3xl">
             <h3 className="text-2xl font-bold mb-8 text-center">
               Quy trình 
-              <span className="gradient-text"> UniXpo </span>
+              <span className="text-blue-900/90"> Uni</span>
+              <span className="gradient-text">Xpo </span>
             </h3>
             
             <div className="space-y-6">

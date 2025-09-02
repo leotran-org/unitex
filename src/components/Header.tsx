@@ -10,7 +10,6 @@ const Header = () => {
     { name: "Giới thiệu", href: "#about" },
     { name: "UniXpo", href: "#unixpo" },
     { name: "TalentXpo", href: "#talentxpo" },
-    { name: "Competition", href: "#competition" },
     { name: "Liên hệ", href: "#contact" }
   ];
 
@@ -43,10 +42,15 @@ const Header = () => {
           </nav>
 
           {/* CTA Button */}
+
           <div className="hidden md:block">
-            <Button variant="hero" size="sm">
-              Tham gia ngay
-            </Button>
+            {false ? (
+              <Button variant="hero" size="sm">
+                Tham gia ngay
+              </Button>
+            ) : (
+              <div className="w-[100px] h-[40px]"></div> // Replace with the button's dimensions
+            )}
           </div>
 
           {/* Mobile Menu Button */}
@@ -73,9 +77,13 @@ const Header = () => {
                 </a>
               ))}
               <div className="pt-2">
+            {/**false ? (
                 <Button variant="hero" size="sm" className="w-full">
                   Tham gia ngay
                 </Button>
+            ) : (
+            **/}
+
               </div>
             </div>
           </nav>

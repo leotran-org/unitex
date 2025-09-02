@@ -32,7 +32,6 @@ const Footer = () => {
         { name: "Giới thiệu", href: "#about" },
         { name: "UniXpo", href: "#unixpo" },
         { name: "TalentXpo", href: "#talentxpo" },
-        { name: "Competition", href: "#competition" },
         { name: "Liên hệ", href: "#contact" },
       ],
     },
@@ -54,12 +53,21 @@ const Footer = () => {
 
       <div className="relative z-10 container mx-auto px-4">
         {/* ======== MAIN ======== */}
+        {/*
         <div
           className="
             py-16 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-12
             gap-y-10 gap-x-6
           "
         >
+        */}
+        <div
+          className="
+    py-16 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-9
+    gap-y-10 gap-x-6
+          "
+        >
+
           {/* Brand / About */}
           <section className="md:col-span-3 lg:col-span-6">
             <div className="flex items-center gap-3 mb-6">
@@ -142,6 +150,7 @@ const Footer = () => {
           </nav>
 
           {/* Newsletter */}
+          {/*
           <section
             aria-labelledby="newsletter-title"
             className="md:col-span-2 lg:col-span-3 min-w-0"
@@ -192,6 +201,7 @@ const Footer = () => {
               .
             </p>
           </section>
+            */}
         </div>
 
         {/* ======== BOTTOM ======== */}
