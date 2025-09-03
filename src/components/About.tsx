@@ -33,7 +33,7 @@ const About = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             <span className="gradient-text">Về </span>
             <span className="text-blue-900/90">Uni</span>
-            <span className="gradient-text">tex</span>
+            <span className="gradient-text">Tex</span>
 
           </h2>
           <p className="text-xl text-foreground-secondary max-w-3xl mx-auto leading-relaxed">

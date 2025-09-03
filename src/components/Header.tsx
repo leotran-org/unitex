@@ -24,7 +24,7 @@ const Header = () => {
             </div>
             <div>
                 <span className="text-xl font-bold text-blue-900">Uni</span>
-                <span className="text-xl font-bold gradient-text">tex</span>
+                <span className="text-xl font-bold gradient-text">Tex</span>
             </div>    
         </div>
 

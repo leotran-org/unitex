@@ -34,7 +34,7 @@ const Hero = () => {
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
                 <span className="text-blue-900/90">Uni</span>
-                <span className="gradient-text">tex</span>
+                <span className="gradient-text">Tex</span>
 
             <br />
             <span className="text-foreground">Nền tảng kết nối</span>
