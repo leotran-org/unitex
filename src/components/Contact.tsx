@@ -126,28 +126,6 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Social Media */}
-            <div className="glass-effect p-8 rounded-3xl">
-              <h3 className="text-xl font-bold mb-6 text-foreground">Theo dõi chúng tôi</h3>
-              
-              <div className="grid grid-cols-2 gap-4">
-                <Button variant="ghost" className="justify-start">
-                  Facebook
-                </Button>
-                <Button variant="ghost" className="justify-start">
-                  Instagram
-                </Button>
-                <Button variant="ghost" className="justify-start">
-                  LinkedIn
-                </Button>
-                <Button variant="ghost" className="justify-start">
-                  TikTok
-                </Button>
-                <Button variant="ghost" className="justify-start">
-                    www.unitex.ventures
-                </Button>
-              </div>
-            </div>
           </div>
         </div>
       </div>
