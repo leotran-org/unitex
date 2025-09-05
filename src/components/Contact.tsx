@@ -105,27 +105,28 @@ const Contact = () => {
             </div>
 
             {/* Quick Actions */}
-            <div className="glass-effect p-8 rounded-3xl">
-              <h3 className="text-xl font-bold mb-6 text-foreground">Kết nối nhanh</h3>
-              
-              <div className="space-y-4">
-                <Button variant="outline" className="w-full justify-start">
-                  <MessageCircle className="w-5 h-5 mr-3" />
-                  Chat với chúng tôi trên Zalo
-                </Button>
-                
-                <Button variant="outline" className="w-full justify-start">
-                  <Phone className="w-5 h-5 mr-3" />
-                  Đặt lịch tư vấn miễn phí
-                </Button>
-                
-                <Button variant="outline" className="w-full justify-start">
-                  <Mail className="w-5 h-5 mr-3" />
-                  Đăng ký nhận newsletter
-                </Button>
-              </div>
-            </div>
-
+            {
+            // <div className="glass-effect p-8 rounded-3xl">
+            //   <h3 className="text-xl font-bold mb-6 text-foreground">Kết nối nhanh</h3>
+            //   
+            //   <div className="space-y-4">
+            //     <Button variant="outline" className="w-full justify-start">
+            //       <MessageCircle className="w-5 h-5 mr-3" />
+            //       Chat với chúng tôi trên Zalo
+            //     </Button>
+            //     
+            //     <Button variant="outline" className="w-full justify-start">
+            //       <Phone className="w-5 h-5 mr-3" />
+            //       Đặt lịch tư vấn miễn phí
+            //     </Button>
+            //     
+            //     <Button variant="outline" className="w-full justify-start">
+            //       <Mail className="w-5 h-5 mr-3" />
+            //       Đăng ký nhận newsletter
+            //     </Button>
+            //   </div>
+            // </div>
+            }
           </div>
         </div>
       </div>
